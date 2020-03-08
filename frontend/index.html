@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>  
+        <link rel="stylesheet" href="style.css">
+        <script type="module" src="./scripts/app.js" defer></script>
+    </head>
+
+    <body>
+        <div class="modalcontainer" id="modalcontainer">
+            <div class="form-popup" id="popupForm">
+                <form class="form-container" >
+                    <h2>Make your room automated</h2>
+                    <input type="text" id="nameofroom" placeholder="Enter room's name" required>
+                    <p>Choose the items you want to monitor and control</p>
+                  
+                    <div class="flex-form">
+  
+                      <div class="flex-formitem addlights">
+
+                          <div class="itemtype">
+                            <label for="nooflights">Lights</label>
+                            <input type="number" step="1" max="" value="0" min="0" name="nooflights" class="quantity-field">
+                          </div>
+
+                            <!-- <div class="itemstate">
+                                <input type="text" placeholder="Enter item name" required>
+                                <label for="on">ON</label>
+                                <input type="checkbox" name="on">    
+          
+                            </div>
+                            <div class="itemstate">
+                                <input type="text" placeholder="Enter item name" required>
+                                <label for="on">ON</label>
+                                <input type="checkbox" name="on">    
+                            </div> -->
+                        </div>
+                        
+                    
+  
+                     
+
+                      <div class="flex-formitem addheaters">
+
+                        <div class="itemtype">
+                            <label for="heater">Heater</label>
+                            <input type="number" step="1" max="" value="0" min="0" name="noofheaters" class="quantity-field">
+                        </div>
+                      
+                      </div>
+                  
+                
+                        
+                    </div>
+            
+                    <button type="submit" class="btn" >Submit</input>
+                    <button type="button" class="btn cancel" >Close</button>
+  
+                </form>
+            </div>
+          </div>
+
+          <button class="alllightbtn" >All lights off</button>
+          <button class="add-room" >Add room</button>
+
+        <div class="flex-container">
+            <!-- <div class="room">
+                <div class="roomname">Child's room
+                    <img src="images/addbutton.png" class="addbutton">
+                    <img src="images/deleteroom.png" class="deleteroom">
+                </div>
+                <div class="roomitems">
+                    <div class= "roomlight">
+                        <img class="deleteicon">
+                        <img class="bulbimg" src="images/lightbulboff.png">
+                        <span>Night Lamp</span>
+                    </div>
+                    <div class="temperature">
+                        <img class="deleteicon">
+                        Temperature<br> 21.4 °C
+                    </div>
+                    <div class="radiator">
+                            <img class="deleteicon">
+                            <img src="images/greentriangle.png" class="triangleicon">
+                        
+                        <div class="content">
+                                <img class="radiatorimg" src="images/radiator.png">
+                            Heater
+                        </div>
+                       
+                    </div>
+                </div>
+            </div> -->
+         
+        </div>
+    </body>
+</html>
